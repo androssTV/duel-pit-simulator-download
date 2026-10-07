@@ -28,6 +28,10 @@ built in. The host's computer runs the match and must keep the client open.
 Use **Your room** to select teams, ready up and start. All players and hosts
 should use Alpha 2; Alpha 1 is incompatible.
 
+Latest Alpha 2 refresh: John commits to affordable finishes and sustained pressure,
+and the main menu now includes a **Buy me a coffee** support link. Re-download
+the ZIP if you installed the earlier Alpha 2 build.
+
 ## What's new
 
 - Main menu and integrated public lobby with private invites and player hosting.
@@ -48,6 +52,10 @@ Open an issue with your version, match format, CPU settings and steps to reprodu
 Do not include private invites, room passcodes or personal information in public reports.
 John match submissions remain subject to manual verification; uploading data is
 not an automatic prize award.
+
+## Support
+
+Enjoying the duels? [Buy androssTV a coffee](https://buymeacoffee.com/androsstv).
 
 ## About this repository
 
