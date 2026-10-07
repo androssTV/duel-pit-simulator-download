@@ -1,46 +1,60 @@
 # Duel Pit Simulator
 
-A standalone Windows game client for Ultima Online-inspired 1v1 and 2v2 duels.
-Play against configurable CPUs or host a match and invite friends.
+Classic UO-style spell dueling in quick 1v1 and 2v2 matches. Practice against CPUs,
+challenge John, or host a game and invite friends.
 
-## Download
+## Download Alpha 2
 
-**[Download Windows Alpha 0.2.0-alpha.1](https://github.com/androssTV/duel-pit-downloads/releases/download/v0.2.0-alpha.1/DuelPit-Windows-0.2.0-alpha.1.zip)**
+**[Download Alpha 2 for Windows](https://github.com/androssTV/duel-pit-simulator-download/releases/download/v0.2.0-alpha.2/DuelPit-Windows-0.2.0-alpha.2.zip)**
 
-[Release notes and checksum](https://github.com/androssTV/duel-pit-downloads/releases/tag/v0.2.0-alpha.1)
+[Release notes and checksum](https://github.com/androssTV/duel-pit-simulator-download/releases/tag/v0.2.0-alpha.2)
 
-1. Download the ZIP and extract the entire folder.
-2. Run `DuelPit.exe`. Keep its accompanying folders beside it.
-3. Choose your match settings, click Prepare practice, then Start match.
+1. Download and extract the entire ZIP, then run **DuelPit.exe**.
+2. Open **Character**, choose your name and outfit, and **Save character**.
+3. Check **Hotkeys**, then choose **Practice** or **Online**.
 
-Windows x64 required. No Godot, Node.js or developer setup is needed. This is an
-unsigned alpha build; it is playable but still in testing.
+Windows x64 required. Keep the included folders beside the executable. No Godot,
+Node.js or developer setup is needed. This is an unsigned alpha testing build.
 
-## Play with friends
+## Play
 
-Open Play online, use Host to start a server, create a room, and share the invite.
-The host must keep the game running. All players need the same alpha build
-(protocol 4). Direct invites work without a shared public server directory.
+**Practice:** choose your match format and CPU settings, prepare the match, then
+press **Start match**. Dummy is the default opponent; other styles include
+Aggressive, Survival, Interrupt, Sync, Heal only, and level-10 Humbled (John).
 
-## Features
+**Online:** join a public lobby, paste a friend's private invite, or select
+**Create lobby** to host your own public or private game. Internet discovery is
+built in. The host's computer runs the match and must keep the client open.
+Use **Your room** to select teams, ready up and start. All players and hosts
+should use Alpha 2; Alpha 1 is incompatible.
 
-- 1v1 and 2v2 with human or CPU teammates and opponents.
-- Configurable CPU styles and individual difficulty.
-- Hybrid estimated and RunUO pre-AOS spell timing presets.
-- Custom hotkeys, portable hotkey backups, status bars and targeting controls.
-- Configurable sudden death and rematches.
+## What's new
+
+- Main menu and integrated public lobby with private invites and player hosting.
+- Original UO paperdoll, saved character names, clothing and hues.
+- Adaptive John AI with improved resource management and sudden-death tactics.
+- Optional private match-data submission after a qualifying victory against John.
+- Improved movement and spell presentation, movable mana readout, and expanded targeting hotkeys.
+- RunUO pre-AOS rules, corrected poison cadence, first-circle interrupt protection, and sudden-death Cure restrictions.
+
+Sudden death defaults to five minutes and disables healing and new Cure casts.
+The game remains in alpha: timing edge cases and presentation differences are
+still being refined, and online play does not yet include movement prediction
+or lag compensation. Keep existing builds in separate folders.
 
 ## Feedback
 
-Open an issue with the version, ruleset, match format and steps to reproduce.
-Do not include room passcodes or personal information in public reports.
+Open an issue with your version, match format, CPU settings and steps to reproduce.
+Do not include private invites, room passcodes or personal information in public reports.
+John match submissions remain subject to manual verification; uploading data is
+not an automatic prize award.
 
 ## About this repository
 
-This repository distributes packaged clients and release notes only. The game's
-development source and Git history are maintained separately in a private
-repository. GitHub's automatic "Source code" archives for this repository contain
-only these public download-page files, not the game source.
+This repository contains packaged downloads and release notes. Development source
+and Git history remain in a separate private repository. GitHub's automatic
+"Source code" archives here contain only the public download-page files; choose
+the named **DuelPit-Windows-0.2.0-alpha.2.zip** asset to play.
 
-Third-party components and art retain their respective ownership and licenses;
-the download includes the applicable notices.
+Third-party components and art retain their respective ownership and licenses.
+Applicable notices are included with the download.
